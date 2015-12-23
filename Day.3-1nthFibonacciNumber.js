@@ -31,7 +31,26 @@ else{
 }
 
 
+// recursion concise 2
+// function fibNum (n){
+//     if (n==1||n==2){
+//         return 1}
+    
+//     return  fibNum(n-1)+fibNum(n-2)
+    
+// }
 
+//recursion version 1
+// function fibNum (n){
+//     if (n==1||n==2){
+//         res = 1;
+//     }
+//     else{
+//     res = fibNum(n-1)+fibNum(n-2)
+//     }
+//     return res
+    
+// }
 
 // function fibNumber (n){
 
