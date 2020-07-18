@@ -33,16 +33,16 @@ var isValidBST = function(root) {
     return helper(root, null, null)
 };
 
-function helper (node, rightLower, leftUpper) {
+function helper (node, lowerLimit, upperLimit) {
 
     if(node == null) return true
     
     const val = node.val
-    if (rightLower !== null && val <= rightLower) return false;
-    if (leftUpper !== null && val >= leftUpper) return false;
+    if (lowerLimit !== null && val <= lowerLimit) return false;
+    if (upperLimit !== null && val >= upperLimit) return false;
 
-    if (! helper(node.right, val, leftUpper)) return false;
-    if (! helper(node.left, rightLower, val)) return false;
+    if (! helper(node.right, val, upperLimit)) return false;
+    if (! helper(node.left, lowerLimit, val)) return false;
     return true;
 
 }
