@@ -46,36 +46,3 @@ function helper (node, lowerLimit, upperLimit) {
     return true;
 
 }
-
-// 奇技淫巧
-// dfs 遍历法如何退出
-
-// var inorderSuccessor = function(root, p) {
-//     let allNodes = [];
-//     try {
-//         dfs(root, allNodes, p)
-//     }
-//     catch{ 
-//     }
-//     return p === allNodes[allNodes.length-1] ? null : allNodes[allNodes.length-1]
-// };
-
-
-// function dfs (root,  allNodes, p) {
-
-//     if (!root) {
-//         return
-//     }
-        
-//     dfs(root.left, allNodes, p)
-
-//     allNodes.push(root)
-
-//     if (allNodes[allNodes.length - 2] === p ) {
-//         throw(err)
-//         return 
-//     }
-    
-//     dfs(root.right, allNodes, p)
-
-// }
