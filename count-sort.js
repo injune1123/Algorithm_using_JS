@@ -1,6 +1,7 @@
 // take in an unsorted arr
 // return a sorted arr
 function countSort(arr) {
+  if(!Array.isArray(arr)) return []
   const counts = []
   const res = []
   // the index of counts is the value of the element to be sorted
