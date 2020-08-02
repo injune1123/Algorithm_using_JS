@@ -1,5 +1,6 @@
 const countSort = require('./count-sort.js');
 const bubbleSort = require('./bubbleSort.js');
+const quickSort = require('./quickSort.js');
 
 const  runTest = (sortfuncs) => {
   sortfuncs.forEach(
@@ -14,5 +15,5 @@ const  runTest = (sortfuncs) => {
   )
 }
 
-runTest([countSort, bubbleSort])
+runTest([countSort, bubbleSort, quickSort])
 
