@@ -1,5 +1,5 @@
 # Algorithms Using JS
-Solutions to algorithm problems written in JavaScript
+Templates to common algorithm problems written in JavaScript
 
 # To Test
 1. run `yarn install` or `npm install` at the root of this project
