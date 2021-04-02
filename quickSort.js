@@ -7,7 +7,7 @@
 // left sentinel moves now towards the right, if sh/e meet a number, stop
 // if left sentinel finds a number and right sentinel also finds one
 // swap
-// when the left sebtinel meets the right sebtinel at indexX
+// when the left sentinel meets the right sentinel at indexX
 // swap the pivot with the number at IndexX
 // divide the problem into smaller ones: a left chunk and right chunk
 // repeat the above action for the left half
